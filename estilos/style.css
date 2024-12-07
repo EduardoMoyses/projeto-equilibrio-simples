@@ -105,10 +105,6 @@ header > nav > a:hover {
     text-decoration: underline;
 }
 
-#conteudo {
-    
-}
-
 #conteudo p {
     line-height: 1.5;
 }
@@ -153,7 +149,6 @@ footer {
 
 footer > p {
     margin-top: 10px;
-    
 }
 
 #extra {
@@ -237,7 +232,7 @@ footer > p {
 }
 
 #creditos {
-    background-color: rgba(83, 83, 83, 0.116);
+    background-color: rgba(83, 83, 83, 0.205);
     color: white;
     display: flex;
     justify-content: center;

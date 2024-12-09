@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 96.6vh;
+    width: 96,6vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > h1 {
+    font-family: 'montserrat' , sans-serif ;
+    padding: 10px;
+    font-size: 1em;
+}
+
+header > nav {
+    padding: 10px;
+    align-self: flex-end;
+}
+
+header > nav > a {
+    color: rgb(20, 75, 38);
+    padding: 4px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+header > nav > a:hover {
+    background-color: rgb(21, 104, 25);
+    color: rgb(255, 255, 255);
+    transition-duration: .3s;
+    
+}
+
+#paisagem { 
+    height: 100%;
+    width: 100%;
+    background-image: url(../imagens/fundo-3.jpg);
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#trans {
+    text-align: center;
+    padding: 3px;
+    color: rgb(9, 48, 9);
+}
+
+#trans > p {
+    margin-bottom: 10px;
+    text-shadow: 2px solid rgba(0, 0, 0, 0.274);
+}
+
+.grande {
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+}
+
+.pequeno {
+    font-size: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+}
+
+#leads {
+    text-align: center;
+    background-color: rgb(72, 170, 72);
+    height: 70px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leads > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#leads > a:hover {
+    color: rgb(43, 90, 43);
+    text-decoration: underline;
+}
+
+#conteudo p {
+    line-height: 1.5;
+}
+
+#titulo {
+    color: rgb(6, 53, 6);
+    margin: 20px;
+}
+
+#titulo > h2 {
+    font-family: 'montserrat' , sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.281);
+    margin-bottom: 3px;
+}
+
+#titulo > p {
+    text-align: center;
+    font-size: 11px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.288);
+}
+
+#assunto {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+#assunto > div > div {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#assunto p {
+    text-indent: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+footer > p {
+    margin-top: 10px;
+    
+}
+
+#extra {
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+    margin: -3px -3px 10px -3px;
+    padding: 4px;
+    
+}
+
+#extra h2 {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.205);
+}
+
+#redes-sociais {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#links-importantes a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+#links-importantes a:hover {
+    text-decoration: underline;
+    color: rgb(68, 68, 68);
+}
+
+#social-link {
+    margin-right: 10px;
+}
+
+#social-link a {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin-right: 5px;
+}
+
+#redes-sociais img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#redes-sociais img:hover {
+    height: 42px;
+    width: 42px;
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    transition: transform .1s, border .3s;
+}
+
+#redes-sociais ul {
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#links-importantes li {
+    margin-bottom: 15px;
+}
+
+#redes-sociais p {
+    margin-bottom: 8px;
+}
+
+#copy {
+    font-size: 15px;
+}
+
+#flcopy {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#creditos {
+    background-color: rgba(83, 83, 83, 0.116);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px -3px -4px -3px;
+}
+
+#creditos a {
+    color: white;
+    text-decoration: none;
+}
+
+#creditos a:hover {
+    color: rgb(134, 134, 134);
+    text-decoration: underline;
+}

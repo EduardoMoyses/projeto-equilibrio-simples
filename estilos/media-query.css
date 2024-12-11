@@ -1,16 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px){
-    
-}
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    
-}
-
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 992px) {
     #texto {
-        width: 700px;
+        width: 800px;
         margin: auto;
         margin-bottom: 10px;
         padding: 10px;
